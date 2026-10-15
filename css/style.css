@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #2d2d2d;
+  font-size: 1rem;
+  font-family:
+    "Crimson Text", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo",
+    serif;
+  line-height: 1.6875;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 18px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.site-title {
+  width: 110px;
+  line-height: 1px;
+  margin-right: 50px;
+}
+
+.sec-title {
+  font-size: 1.5rem;
+  margin-bottom: 4px;
+  font-weight: normal;
+}
+
+.sec-title-en {
+  margin-bottom: 25px;
+  display: inline-block;
+}
+
+/* メインビジュアル */
+#mainvisual {
+  width: 90vw;
+  margin: 4% auto 0 auto;
+}
+#mainvisual img {
+  height: auto;
+}
+
+/* ヘッダー */
+#header {
+  display: flex;
+  justify-content: start;
+  width: 90vw;
+  margin: 0 auto 30px auto;
+  padding: 32px 0;
+  align-items: center;
+}
+#header nav ul {
+  display: flex;
+  font-size: 0.875rem;
+}
+#header nav ul li {
+  margin-right: 30px;
+}
+
+/* コンセプト */
+#concept .img,
+#work .img {
+  width: 50%;
+}
+#concept .text,
+#work .text {
+  width: 50%;
+  padding: 0 6.7%;
+}
+
+/* フッター */
+#footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+#footer .logo {
+    width: 110px;
+    line-height: 1px;
+}
+#footer p {
+    font-size: 0.875rem;
+}
